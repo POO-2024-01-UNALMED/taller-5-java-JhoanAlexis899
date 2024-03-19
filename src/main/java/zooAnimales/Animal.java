@@ -38,10 +38,10 @@ public class Animal {
 	}
 	public String toString() {
 		if(this.zona == null) {
-			return "Mi nombre es "+ this.nombre +", tengo una edad de "+ this.edad + 
-					" y mi genero es " + this.genero;
+			return "Mi nombre es "+ this.nombre +", tengo una edad de "+ this.edad +", habito en "+this.habitat
+					+" y mi genero es " + this.genero;
 		}
-		return "Mi nombre es "+ this.nombre +", tengo una edad de "+ this.edad + 
+		return "Mi nombre es "+ this.nombre +", tengo una edad de "+ this.edad + ", habito en "+this.habitat+
 				" y mi genero es " + this.genero + ", la zona en la que me ubico es " + this.zona.getNombre() + ", en el zoo "  + this.zona.getZoo().getNombre();
 	}
 	
